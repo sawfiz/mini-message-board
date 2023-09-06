@@ -7,5 +7,15 @@
 </head>
 <body>
   <h1><%= title %></h1>
+
+  <a href="/new">Add a new message</a> 
+   
+  <% messages.forEach( message => { %>
+    <div>
+      <%= message.added %>
+    </div>
+    <%= message.user %>
+    <%= message.text %>
+  <% }); %>
 </body>
 </html>
