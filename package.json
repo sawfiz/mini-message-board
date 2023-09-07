@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sawfiz/mini-message-board/issues"
   },
-  "homepage": "https://github.com/sawfiz/mini-message-board#readme"
+  "homepage": "https://github.com/sawfiz/mini-message-board#readme",
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.8"
+  }
 }
